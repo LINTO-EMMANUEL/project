@@ -1,0 +1,11 @@
+ultralytics
+opencv-python
+requests
+numpy
+Pillow
+# OCR dependencies for license plate text extraction
+pytesseract
+easyocr
+# Additional image processing
+scipy
+scikit-image

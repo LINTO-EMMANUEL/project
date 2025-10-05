@@ -1,0 +1,14 @@
+node_modules/
+**/*.traineddata
+**/*.pt
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.svg
+backend/detected_plates/
+backend/temp/
+backend/datasets/
+backend/models/license_plate/
+backend/models/yolo/
+backend/__pycache__/
+backend/ml/__pycache__/

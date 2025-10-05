@@ -1,0 +1,294 @@
+/* General */
+body {
+  font-family: "Arial", sans-serif;
+  background: #f8f9fb;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-buttons .btn-outline {
+  border: 1px solid #ccc;
+  background: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.nav-buttons .btn-dark {
+  border: none;
+  background: #141b23;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Page Container */
+.page-container {
+  font-family: "Poppins", sans-serif;
+  background: #f8f9fb;
+  min-height: 100vh;
+  padding-top: 100px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Card */
+.card {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin: 40px auto;
+  padding: 40px;
+  width: 85%;
+  max-width: 1200px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  min-height: 500px; /* Ensure card has sufficient height */
+  color: #000000; /* Set default text color to black */
+}
+
+.card-left,
+.card-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.card-left {
+  border-right: none; /* Remove direct border */
+  position: relative;
+  padding-right: 30px;
+}
+
+.card-left::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  border-radius: 2px;
+  background: linear-gradient(
+    180deg,
+    #f1e9e9 0%,
+    #6c63ff 25%,
+    #a259ff 50%,
+    #4b2323 75%,
+    #c57e7e 100%
+  );
+  background-size: 100% 400%;
+  animation: borderColorFlowSmooth 5s linear infinite;
+  z-index: 1;
+  will-change: background-position;
+  backface-visibility: hidden;
+  transition: none;
+}
+
+@keyframes borderColorFlowSmooth {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.card-right {
+  padding-left: 30px; /* Add padding to balance with left side */
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000; /* Ensure title is black */
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  color: #000000; /* Change subtitle to black instead of gray */
+  margin: 10px 0 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.parking-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Role Cards */
+.role-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.role-card:hover {
+  background: #f0f0f0;
+  border-color: #6c63ff;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.role-info {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.role-info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000; /* Ensure role title is black */
+}
+
+.role-info p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #000000; /* Change role description to black instead of gray */
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.staff {
+  color: #6c63ff;
+}
+
+.user {
+  color: #a259ff;
+}
+
+.arrow {
+  font-size: 22px;
+  color: #999;
+  font-weight: bold;
+}
+
+/* Fixed size card */
+.fixed-size-card {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin: 28px auto;
+  padding: 40px;
+  width: 85%;
+  max-width: 1200px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: visible; /* Change from auto to visible to remove scrollbar */
+  height: auto; /* Allow the card to adjust its height naturally */
+  min-height: 600px; /* Keep minimum height */
+  max-height: none; /* Remove maximum height constraint */
+}
+
+.form-inputs-container {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  background: #f9f9f9;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box;
+  min-height: 40px; /* Reduced height for input fields */
+}
+
+.form-input:focus {
+  border-color: #a855f7;
+  box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.2);
+  outline: none;
+}
+
+.form-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+/* Error Message Styles */
+.form-group {
+  margin-bottom: 16px;
+  width: 100%;
+  position: relative;
+}
+
+.error-message {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.error-input {
+  border-color: #d32f2f !important;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .card-left {
+    border-right: none; /* Remove border on mobile */
+    border-bottom: 1px solid #4b2323; /* Add bottom border instead */
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+
+  .card-right {
+    padding-left: 20px;
+  }
+}

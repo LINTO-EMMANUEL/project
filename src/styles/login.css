@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?display=swap&family=Lexend:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900");
+
+:root {
+  --text: #ffffff;
+  --bg: #1e1e2f;
+  --muted-border: rgba(255, 255, 255, 0.1);
+  --field-border: #2d2d44;
+  --placeholder: rgba(255, 255, 255, 0.5);
+  --button-text: #ffffff;
+  --accent: #00c853;
+  --error: #ff5252;
+  --card-bg: #2d2d44;
+  --input-bg: #2d2d44;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.page-root {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  background-color: white;
+
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: Lexend, "Noto Sans", sans-serif;
+  color: var(--text);
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Main content container: px-40 py-5, centered, max-w 960 */
+.content-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding: 1.25rem 10rem; /* py-5 px-40 */
+}
+
+.content-inner {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 960px;
+}
+
+/* Hero container: adds padding on >=480px like @[480px]:px-4 @[480px]:py-3 */
+.hero-shell {
+  padding: 0;
+}
+
+@media (min-width: 480px) {
+  .hero-shell {
+    padding: 0.75rem 1rem; /* py-3 px-4 */
+  }
+}
+
+/* Hero: bg cover, rounded on >=480px, min-height 218px */
+.hero {
+  width: 100%;
+  min-height: 218px;
+
+  background-color: red; /* Debugging fallback */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+@media (min-width: 480px) {
+  .hero {
+    border-radius: 12px; /* rounded-xl */
+  }
+}
+
+/* Headings */
+.page-title {
+  color: var(--bg);
+  font-weight: 700;
+  font-size: 32px; /* text-[32px] */
+  line-height: 1.25; /* leading-tight */
+  text-align: center;
+  padding: 1.5rem 1rem 0.75rem; /* pt-6 px-4 pb-3 */
+  margin: 0;
+}
+
+.page-subtitle {
+  color: var(--bg);
+  font-weight: 700;
+  font-size: 28px; /* text-[28px] */
+  line-height: 1.25;
+  text-align: center;
+  padding: 1.25rem 1rem 0.75rem; /* pt-5 px-4 pb-3 */
+  margin: 0;
+}
+
+/* Form rows */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem; /* gap-4 */
+  max-width: 480px;
+  padding: 0.75rem 1rem; /* py-3 px-4 */
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  min-width: 10rem; /* min-w-40 */
+  flex: 1 1 auto;
+}
+
+.field-label {
+  color: var(--text);
+  font-size: 1rem; /* text-base */
+  font-weight: 500; /* font-medium */
+  line-height: 1.5; /* leading-normal */
+  padding-bottom: 0.5rem; /* pb-2 */
+  margin: 0;
+}
+
+/* Text input: matches Tailwind's form look used */
+.text-input {
+  width: 100%;
+  height: 56px; /* h-14 */
+  padding: 15px;
+  border-radius: 12px; /* rounded-xl */
+  border: 1px solid var(--field-border);
+  background: var(--bg);
+  color: #ffffff !important; /* Force white text color */
+  font-size: 1rem;
+  line-height: 1.5;
+  outline: none;
+  -webkit-text-fill-color: #ffffff; /* For Webkit browsers */
+}
+
+.text-input::placeholder {
+  color: var(--placeholder);
+}
+
+/* Keep border color on focus (no ring) */
+.text-input:focus {
+  border-color: var(--field-border);
+  outline: none;
+  color: var(--text);
+}
+
+/* Helper link: "Forgot Password?" */
+.helper-link {
+  color: #6b7280; /* gray-ish, akin to neutral-500 */
+  font-size: 0.875rem; /* text-sm */
+  line-height: 1.5; /* leading-normal */
+  padding: 0.25rem 1rem 0.75rem; /* pt-1 px-4 pb-3 */
+  margin: 0;
+  text-decoration: underline;
+  width: max-content;
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.helper-link:hover {
+  color: #4f7a48; /* Optional: Add hover color for better UX */
+}
+
+/* Login button row */
+.actions {
+  display: flex;
+  padding: 0.75rem 1rem; /* py-3 px-4 */
+}
+
+.btn-wide {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem; /* h-10 */
+  padding: 0 1rem; /* px-4 */
+  width: 100%; /* flex-1 */
+  min-width: 84px;
+  max-width: 420px;
+  border: none;
+  border-radius: 9999px; /* rounded-full */
+  background: #000;
+  color: var(--button-text);
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 700; /* font-bold */
+  letter-spacing: 0.015em;
+  cursor: pointer;
+}
+
+/* Sign up footnote */
+.signup-hint {
+  color: #6b7280;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  padding: 0.25rem 1rem 0.75rem; /* pt-1 px-4 pb-3 */
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Transition styles for form container */
+.form-container {
+  position: relative;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.show-login {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.show-forgot-password {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.forgot-password,
+.login-form {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.show-login .login-form {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.show-forgot-password .forgot-password {
+  opacity: 1;
+  transform: translateY(0);
+}

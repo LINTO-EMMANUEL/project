@@ -1,0 +1,189 @@
+/* --- Global Variables & Basic Setup --- */
+:root {
+  --bg-dark: #1e1e2f;
+  --bg-medium: #2d2d44;
+  --bg-light: #373750;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-light: rgba(255, 255, 255, 0.5);
+  --accent: #00c853;
+  --positive: #00c853;
+  --negative: #ff5252;
+  --border-radius-lg: 16px;
+  --border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* --- Admin Dashboard Root --- */
+.admin-dashboard-root {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* --- Main Content Layout --- */
+.main-content {
+  flex: 1; /* This makes it take up the remaining space next to the sidebar */
+  padding: 40px;
+  overflow-y: auto; /* Allows scrolling if content overflows */
+}
+
+/* --- Main Content Header --- */
+.main-header {
+  margin-bottom: 32px;
+}
+.main-header h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+.main-header p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+.section-title {
+  font-size: 1.5rem;
+  margin: 48px 0 24px 0;
+  font-weight: 600;
+}
+
+/* --- Stats Grid --- */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+}
+.stat-card {
+  background-color: var(--bg-medium);
+  padding: 24px;
+  border-radius: var(--border-radius-lg);
+}
+.stat-title {
+  margin: 0 0 8px 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+.stat-value {
+  margin: 0 0 12px 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+.stat-change {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.positive {
+  color: var(--positive);
+}
+.negative {
+  color: var(--negative);
+}
+
+/* --- Charts Section --- */
+.charts-section {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr; /* Makes the left chart wider */
+  gap: 24px;
+}
+.chart-card {
+  background-color: var(--bg-medium);
+  padding: 24px;
+  border-radius: var(--border-radius-lg);
+  display: flex;
+  flex-direction: column;
+}
+.chart-header {
+  margin-bottom: 24px;
+}
+.chart-title {
+  color: var(--text-secondary);
+  margin: 0 0 4px 0;
+  font-size: 1rem;
+}
+.chart-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+.chart-change {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin: 4px 0 0;
+}
+
+/* --- Chart Placeholders --- */
+.chart-placeholder {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.line-chart-svg {
+  width: 100%;
+  height: auto;
+  flex-grow: 1;
+  stroke: var(--accent);
+  stroke-width: 2px;
+  fill: none;
+}
+.bar-chart-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 0 10%;
+  gap: 16px;
+}
+.bar {
+  background-color: var(--bg-light);
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+.chart-labels {
+  display: flex;
+  justify-content: space-around;
+  color: var(--text-light);
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+
+/* --- Recent Activities Table --- */
+.activities-table-container {
+  background-color: var(--bg-medium);
+  padding: 8px 24px 16px 24px;
+  border-radius: var(--border-radius-lg);
+}
+.activities-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.activities-table th,
+.activities-table td {
+  padding: 16px 8px;
+  text-align: left;
+  border-bottom: 1px solid var(--bg-light);
+}
+.activities-table thead th {
+  border-bottom: 1px solid var(--bg-light);
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.activities-table tbody tr:last-child td {
+  border-bottom: none;
+}
+.activities-table td {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+.activities-table td:first-child {
+  color: var(--text-primary);
+  font-weight: 500;
+}

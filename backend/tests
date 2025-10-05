@@ -1,0 +1,115 @@
+import cv2
+import numpy as np
+from pathlib import Path
+from vehicle_detect import load_model, classify_vehicle
+import json
+import matplotlib.pyplot as plt
+
+def test_model():
+    """Test the trained model on validation dataset"""
+    print("Loading trained model...")
+    model = load_model()
+    
+    # Get validation images
+    val_dir = Path('datasets/vehicle_detection/valid/images')
+    if not val_dir.exists():
+        raise ValueError(f"Validation directory not found: {val_dir}")
+    
+    results = {
+        'total_images': 0,
+        'successful_detections': 0,
+        'type_counts': {'2-wheeler': 0, '4-wheeler': 0, 'failed': 0},
+        'confidence_ranges': {
+            '0.9-1.0': 0,
+            '0.8-0.9': 0,
+            '0.7-0.8': 0,
+            '0.6-0.7': 0,
+            '<0.6': 0
+        },
+        'detections': []
+    }
+    
+    print("\nTesting model on validation images...")
+    for img_path in val_dir.glob('*.jpg'):
+        results['total_images'] += 1
+        
+        # Read and process image
+        img = cv2.imread(str(img_path))
+        if img is None:
+            print(f"Failed to read image: {img_path}")
+            continue
+            
+        # Run detection
+        model_results = model(img, verbose=False)
+        
+        # Process detections
+        detections = []
+        for box in model_results[0].boxes:
+            cls_id = int(box.cls[0])
+            class_name = model_results[0].names[cls_id]
+            conf = float(box.conf[0])
+            x1, y1, x2, y2 = map(int, box.xyxy[0])
+            detections.append({
+                'class': class_name,
+                'confidence': conf,
+                'bbox': [x1, y1, x2, y2]
+            })
+        
+        # Classify vehicle
+        result = classify_vehicle(detections)
+        
+        if result['vehicle_type'] is not None:
+            results['successful_detections'] += 1
+            results['type_counts'][result['vehicle_type']] += 1
+            
+            # Track confidence ranges
+            conf = result['confidence']
+            if conf >= 0.9: results['confidence_ranges']['0.9-1.0'] += 1
+            elif conf >= 0.8: results['confidence_ranges']['0.8-0.9'] += 1
+            elif conf >= 0.7: results['confidence_ranges']['0.7-0.8'] += 1
+            elif conf >= 0.6: results['confidence_ranges']['0.6-0.7'] += 1
+            else: results['confidence_ranges']['<0.6'] += 1
+        else:
+            results['type_counts']['failed'] += 1
+        
+        results['detections'].append({
+            'image': str(img_path),
+            'vehicle_type': result['vehicle_type'],
+            'confidence': result['confidence']
+        })
+        
+        # Print progress
+        if results['total_images'] % 10 == 0:
+            print(f"Processed {results['total_images']} images...")
+    
+    # Calculate metrics
+    success_rate = results['successful_detections'] / results['total_images'] * 100
+    print("\nTest Results:")
+    print(f"Total Images Processed: {results['total_images']}")
+    print(f"Successful Detections: {results['successful_detections']} ({success_rate:.1f}%)")
+    print("\nDetection by Type:")
+    for vtype, count in results['type_counts'].items():
+        print(f"{vtype}: {count}")
+    print("\nConfidence Distribution:")
+    for conf_range, count in results['confidence_ranges'].items():
+        print(f"{conf_range}: {count}")
+    
+    # Save detailed results
+    with open('test_results.json', 'w') as f:
+        json.dump(results, f, indent=2)
+    
+    # Plot confidence distribution
+    plt.figure(figsize=(10, 6))
+    plt.bar(results['confidence_ranges'].keys(), results['confidence_ranges'].values())
+    plt.title('Detection Confidence Distribution')
+    plt.xlabel('Confidence Range')
+    plt.ylabel('Number of Detections')
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig('confidence_distribution.png')
+    
+    print("\nDetailed results saved to 'test_results.json'")
+    print("Confidence distribution plot saved to 'confidence_distribution.png'")
+
+if __name__ == '__main__':
+    test_model()

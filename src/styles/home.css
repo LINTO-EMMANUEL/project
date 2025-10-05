@@ -1,0 +1,271 @@
+.home-root {
+  font-family: "Spline Sans", "Noto Sans", sans-serif;
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 90px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #264532;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-container svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.header-actions button {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-register {
+  background-color: #38e07b;
+  color: #122118;
+}
+
+.btn-login {
+  background-color: #264532;
+  color: white;
+}
+
+.main-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-image: url("src/assets/h.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  min-width: 100%;
+  border-radius: 12px;
+}
+
+.welcome-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.welcome-description {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.get-started {
+  margin-bottom: 3rem; /* Increased gap below the Get Started section */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.get-started .btn-get-started {
+  background-color: #38e07b;
+  color: #122118;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.features-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.features-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.features-cards {
+  display: block; /* Ensure cards stack vertically */
+  width: 100%;
+  max-width: 960px; /* Center the cards container */
+  margin: 0 auto;
+  gap: 2rem; /* Increased gap between cards */
+}
+
+.feature-card {
+  background-color: #1b3124;
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%; /* Set width to 80% */
+  max-width: 1100px; /* Set a max width for consistency */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem; /* Increased gap inside the card */
+  margin: 2rem auto; /* Increased spacing between cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px); /* Add juggling effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.feature-image {
+  flex: 1;
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.feature-card-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.feature-card h4 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.footer {
+  background-color: #264532;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Align items vertically */
+  gap: 2rem; /* Add spacing between footer text and links */
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+  margin: 0; /* Remove top margin */
+}
+
+.footer-links a {
+  color: #38e07b;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.btn-learn-more {
+  background-color: #38e07b;
+  color: #122118;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 1rem; /* Add spacing above the button */
+  width: 40%; /* Set width to 40% */
+  text-align: center; /* Center text inside the button */
+  align-self: center; /* Center the button horizontally */
+  margin-left: auto; /* Center the button */
+  margin-right: auto; /* Center the button */
+}
+
+.btn-learn-more:hover {
+  background-color: #264532;
+  color: white;
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+.btn-about-us {
+  background-color: #e07638;
+  color: #122118;
+  width: 100px;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-get-started,
+.btn-about-us {
+  height: 40px;
+  width: auto;
+}
+
+.f1 {
+  background-color: #cbf3fc;
+  color: black;
+}
+.f2 {
+  background-color: #c1f7f7;
+  color: black;
+}
+.f3 {
+  background-color: #ade3e0;
+  color: black;
+}
+
+.feature-card h4 {
+  margin-bottom: 30px;
+}

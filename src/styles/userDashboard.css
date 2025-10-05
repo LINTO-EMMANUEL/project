@@ -1,0 +1,120 @@
+/* General Layout */
+.user-dashboard {
+  display: flex;
+  min-height: 100vh;
+  background-color: #1b263b;
+  color: #e5e7eb;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  flex: 1;
+  background-color: #1b263b;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.dashboard-title {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: bold;
+}
+
+.dashboard-subtitle {
+  margin-top: 0.5rem;
+  color: #9ca3af; /* text-gray-400 */
+}
+
+/* Parking Costs Card */
+.parking-card {
+  margin-top: 1.5rem;
+  background-color: #0d1b2a;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid #374151; /* border-gray-700 */
+}
+
+.parking-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.parking-card-inner {
+  background-color: #1b263b;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.parking-subtitle {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+.parking-amount {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: white;
+}
+
+.parking-change {
+  font-size: 0.875rem;
+  color: #34d399; /* green-400 */
+}
+
+.parking-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar {
+  width: 2.5rem; /* w-10 */
+  background-color: #6b7280; /* gray-500 */
+  border-radius: 0.25rem;
+}
+
+.bar-label {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+/* Expense History */
+.expense-history {
+  margin-top: 1.5rem;
+  background-color: #0d1b2a;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.expense-history-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.expense-table {
+  width: 100%;
+  text-align: left;
+  color: #d1d5db;
+  border-collapse: collapse;
+}
+
+.expense-table th {
+  padding: 0.5rem 0;
+  color: #9ca3af;
+  border-bottom: 1px solid #374151;
+}
+
+.expense-table td {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #374151;
+}

@@ -1,0 +1,206 @@
+/* Smart Park Custom Styles */
+
+/* Root container adjustments */
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sidebar Styles */
+.sidebar-expanded {
+  width: 256px !important;
+}
+
+.sidebar-collapsed {
+  width: 80px !important;
+}
+
+/* Hover effects for sidebar links */
+.hover-bg-secondary:hover {
+  background-color: var(--bs-secondary) !important;
+  color: var(--bs-white) !important;
+}
+
+/* Custom sidebar positioning */
+.sidebar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 1000;
+  transition: width 0.3s ease;
+}
+
+/* Main content area adjustments */
+.main-content-area {
+  margin-left: 256px;
+  transition: margin-left 0.3s ease;
+}
+
+.main-content-area.collapsed {
+  margin-left: 80px;
+}
+
+/* Custom button styles */
+.btn-camera {
+  background: linear-gradient(45deg, #28a745, #20c997);
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-camera:hover {
+  background: linear-gradient(45deg, #218838, #1ea085);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Card enhancements */
+.card-enhanced {
+  border: 1px solid var(--bs-border-color);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.card-enhanced:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Status indicators */
+.status-indicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.status-online {
+  background-color: #28a745;
+  box-shadow: 0 0 6px rgba(40, 167, 69, 0.6);
+}
+
+.status-offline {
+  background-color: #dc3545;
+  box-shadow: 0 0 6px rgba(220, 53, 69, 0.6);
+}
+
+.status-checking {
+  background-color: #ffc107;
+  box-shadow: 0 0 6px rgba(255, 193, 7, 0.6);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* Progress bar enhancements */
+.progress-enhanced {
+  height: 24px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: var(--bs-gray-200);
+}
+
+.progress-bar-enhanced {
+  transition: width 0.6s ease;
+  border-radius: 12px;
+}
+
+/* Form enhancements */
+.form-control-enhanced {
+  border: 1px solid var(--bs-border-color);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control-enhanced:focus {
+  border-color: var(--bs-primary);
+  box-shadow: 0 0 0 0.2rem rgba(var(--bs-primary-rgb), 0.25);
+}
+
+/* Alert enhancements */
+.alert-enhanced {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Table enhancements */
+.table-enhanced {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Badge enhancements */
+.badge-enhanced {
+  font-size: 0.75em;
+  padding: 0.5em 0.75em;
+  border-radius: 6px;
+}
+
+/* Modal enhancements */
+.modal-enhanced .modal-content {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sidebar-expanded,
+  .sidebar-collapsed {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+  }
+  
+  .main-content-area {
+    margin-left: 0 !important;
+  }
+  
+  .main-content-area.collapsed {
+    margin-left: 0 !important;
+  }
+}
+
+/* Dark theme adjustments */
+.bg-dark {
+  background-color: #1a1a1a !important;
+}
+
+.bg-secondary {
+  background-color: #2d2d2d !important;
+}
+
+.text-light {
+  color: #f8f9fa !important;
+}
+
+.border-secondary {
+  border-color: #495057 !important;
+}
+
+/* Animation utilities */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}

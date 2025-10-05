@@ -1,0 +1,1033 @@
+{
+  "total_images": 203,
+  "successful_detections": 195,
+  "type_counts": {
+    "2-wheeler": 0,
+    "4-wheeler": 195,
+    "failed": 8
+  },
+  "confidence_ranges": {
+    "0.9-1.0": 149,
+    "0.8-0.9": 41,
+    "0.7-0.8": 3,
+    "0.6-0.7": 2,
+    "<0.6": 0
+  },
+  "detections": [
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-040585B0-923B-49A3-B6F7-D149A58534ED-png_jpg.rf.3406cbb32e695c88f639bc51d7345c62.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8966967463493347
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-16EFD002-2A35-4C88-A714-159D295A25B9-png_jpg.rf.3135453963d20a7d6d1c12754b4ad5e7.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.6201559901237488
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-1D1CDAD8-AB52-4C15-99E1-0F46C88FD2BB-png_jpg.rf.f3ab0e42753a57fe59bc0888ef5d1fed.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9075311422348022
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-219385A6-1305-4394-A47C-8D7503109ABF-png_jpg.rf.c844845fc4dbb082d49d7be29b53473d.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8338757157325745
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-251A7DC4-47FA-45BF-8F18-8C933578D147-png_jpg.rf.7c9dde1f850fc7adc34bbc2ac6d20af5.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9011138081550598
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-2583782B-94DC-4D8B-B873-8562A521D18D-png_jpg.rf.cffe112522b8780ce97a0e6d4c5e5702.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8982186913490295
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-26E94431-436C-4D19-87EF-144E489255ED-png_jpg.rf.d1f9714e767d72b8dd271edf4de34dd0.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8824577331542969
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-281BE0A6-9C91-49AD-8473-94659B23F532-png_jpg.rf.7ad274c1ff90f752440edf0d04618578.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.929635226726532
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-2B6670D5-B280-4597-8539-B4BB9A8F0CB4-png_jpg.rf.be760dc01498d99be0c68bde8649cf38.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9269883036613464
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-2DF2AEA0-169F-40AC-B7C7-90D9B8047369-png_jpg.rf.18635e1d26e79cebefcd515f24713614.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9292771220207214
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-35C8F869-003E-4989-ADF3-F79D890A8FE4-png_jpg.rf.a38be3eec451a6dee79f185fef88d328.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8766878843307495
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-3B54DE29-3BCA-4191-A23E-003270236E01-png_jpg.rf.d8aaeea20cad6f42fa36118d6cf0fcb1.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8928064703941345
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-67DC16BB-D5BC-43D6-9805-201E757B036F-png_jpg.rf.e090056ac739d3876b533f36a0b65367.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8906577825546265
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-6895811E-6E26-4DBD-A7ED-F7A529684BBA-png_jpg.rf.ba9d5a94f2941cae26844d2c09048021.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8088472485542297
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-6E96A480-5585-4D65-A654-F1F62E8DA2E9-png_jpg.rf.37930aafbb029bec8993a18e8b4f5a50.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8857649564743042
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-761D93D5-DF8B-4BBE-81C4-69AD381D1931-png_jpg.rf.660fc4bb12477d5bdd04884641d30a46.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8790735006332397
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-7BD0670A-F3AA-4DF3-A61F-D64CF293E7DA-png_jpg.rf.26df637792e88a48ac359961de541bcf.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.934260904788971
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-805574F3-2E8D-4C99-A41E-A0703338EAD5-png_jpg.rf.91433d4bc2c06a8d20e075294ae8fbf1.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9173343777656555
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-C1DAD6C9-B209-436B-9CC2-5460EDAE8924-png_jpg.rf.a536da2a78fd939beb18b5d972793d4c.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.7855666279792786
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\-DD69513A-F7AA-42AB-8934-FED2717CC935-png_jpg.rf.a7510841b8e98e2bd5b5966f0b34665f.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9193214774131775
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\00110_jpg.rf.e2693e726bd1dd3d0a5555fadf3fbefd.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9247176647186279
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\00262_jpg.rf.431618186122287a18f46b27f5205033.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9398938417434692
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\00790_jpg.rf.615ecd54d358e3f9d43d321e1a2892b4.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9220447540283203
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\00826_jpg.rf.32a6885671b674a2ec737f13a1a0611e.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9605653882026672
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\01444_jpg.rf.093867685f9791ef840283d4ac89fc08.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9575236439704895
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\01455_jpg.rf.834529265da73e9f1183bd09d72b3213.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9451960325241089
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\01890_jpg.rf.08a50ea4087cd023abcc9f3e81cac27c.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9391939640045166
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\02136_jpg.rf.f4ab13cd5097938bf4621af8fbece531.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9520153403282166
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\02321_jpg.rf.741a710003e214ffb79e602d9aad027b.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9472480416297913
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\02381_jpg.rf.2481e40e695b8c8e83ecaca8968455e1.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9486135840415955
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\03206_jpg.rf.8278c6cf970f3bf271a82de750e1b618.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9313408136367798
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\04129_jpg.rf.d3661ac9f217ab68d2258512499b0ea1.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8943865299224854
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\04947_jpg.rf.989a411fdb5d4ab3c4cc8c65e27d115f.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9549971222877502
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\04980_jpg.rf.a0e27d613989eedca0e2eaad0ff69e45.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9523128867149353
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\05221_jpg.rf.daf0ab0dcfe7409c557ba0fb11ac9404.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9539262652397156
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\05293_jpg.rf.fe0eb0224b09527090387954c31e06af.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9444903135299683
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\05795_jpg.rf.71bfd056f4fb7b6a0521906d5f3865bd.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9405032396316528
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\06518_jpg.rf.68b7c400f342baeb5cadf845ec18aac1.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9396266341209412
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\06699_jpg.rf.4de03c59750544c68b3119412d241bdc.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9608810544013977
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\06899_jpg.rf.195fef9f09487b38353b22fde0c92ca1.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9622141718864441
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\07200_jpg.rf.87b6e335893cf170faa4412cef5c646a.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9664774537086487
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\07413_jpg.rf.74d7895b86a1c2e996c3a7ccedde3e63.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9120805263519287
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\07504_jpg.rf.906b819d57659d7234e4282ff7e0ee63.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9480451941490173
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\07572_jpg.rf.986b55243ff995195388504e1383098c.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9395613074302673
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\07780_jpg.rf.3e0bdc86bd107f96526a5684dd1c5921.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9374509453773499
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\07826_jpg.rf.271ebc247acdb7d29da3a19a82c7985a.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9534127712249756
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\07908_jpg.rf.1b44584f4e574caccbbcf9b59b81c8f4.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9353914260864258
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\102_jpg.rf.f95e24d3d5f0dd7b06c18065c14742d1.jpg",
+      "vehicle_type": null,
+      "confidence": 0.0
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\36_jpg.rf.918c989419542635e18118e1d4d3e584.jpg",
+      "vehicle_type": null,
+      "confidence": 0.0
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\53_jpg.rf.2fdc5f34821f8773b10c0df28b4871c4.jpg",
+      "vehicle_type": null,
+      "confidence": 0.0
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\55_jpg.rf.7b58c85566345a5195a9991ad5abc134.jpg",
+      "vehicle_type": null,
+      "confidence": 0.0
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\59_jpg.rf.9cf0c6ad12b51c804011b332360dd2d5.jpg",
+      "vehicle_type": null,
+      "confidence": 0.0
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\73_jpg.rf.9027c04366b4f5619cafbea0d1b86cbb.jpg",
+      "vehicle_type": null,
+      "confidence": 0.0
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\74_jpg.rf.1743ccde736272acb080a2da8c6d03d0.jpg",
+      "vehicle_type": null,
+      "confidence": 0.0
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\8_jpg.rf.c076d084d2b74d617109609e5da38ac6.jpg",
+      "vehicle_type": null,
+      "confidence": 0.0
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car100_jpg.rf.eb7756df2b5067f00c4ad7a212860e2f.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9577029347419739
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car107_jpg.rf.c9799deaa1c2856ff67f15d5807703a5.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9636973738670349
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car114_jpg.rf.811286c0566ed8924abf89255f9f5585.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9548590779304504
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car126_jpg.rf.a0136acd6e822aeb1f8537e8bf1003bf.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9604253768920898
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car129_jpg.rf.982fc100d0187a1dfaddf2f8492d096c.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9621084332466125
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car134_jpg.rf.c952d476c9d509f2cae1d01ec28694eb.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.946117639541626
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car135_jpg.rf.8b492fc6dfb1b803d00ec48d604c3b81.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.967913806438446
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car140_jpg.rf.90835d575e5d3dc2ecbfd3938c2a0cab.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9521687626838684
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car149_jpg.rf.ec93a18d7b1a1acc5a21977f4b73c7d4.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9439065456390381
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car156_jpg.rf.6e2daf203fb6743e4e2d19a21baf7cb5.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9477303624153137
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car158_jpg.rf.8deceec4af58beb9e42b8b04cace1505.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9376171827316284
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car161_jpg.rf.f2822f8b078f8366cf7363bb990709ee.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.939802348613739
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car164_jpg.rf.efae73955d64ff0540fb02988195ee9d.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9279311299324036
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car167_jpg.rf.399877127659ac6a6eec6052fc43af87.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9660012722015381
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car171_jpg.rf.ebdf627ff3173f042f4bb11ebb8e55b8.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9449915885925293
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car172_jpg.rf.f0e3f981052662221bc46012c3892fa4.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9619589447975159
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car175_jpg.rf.86105f1115d7d6e1dbc11d6208edaf1d.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9319429993629456
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car176_jpg.rf.d40f542e2ef0db4320358eb9bb491e9d.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.968163013458252
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car177_jpg.rf.66313c282a3e8e35f46384d1faf96394.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9558057188987732
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car179_jpg.rf.fb4faebbd0cce4befd8854002cd2649a.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9293336868286133
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car182_jpg.rf.6c61c17e4bc405ee286d796fa334a96b.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9331708550453186
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car183_jpg.rf.e7b05f28cf93b05e69fb46713ecca04e.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9532359838485718
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car188_jpg.rf.9cd2ff6aa307ff9d89ca4020961c6127.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9602454304695129
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car190_jpg.rf.2daa6205180590bf97cfb3345be22c99.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9495651721954346
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car195_jpg.rf.1f54857986e27c85bd9e0cde5246135b.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9594571590423584
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car196_jpg.rf.6024d560c511733eac5376a6aac33f41.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9631351828575134
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car198_jpg.rf.3af3050f126b1a1eaae606c72ef468fc.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9479278922080994
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car200_jpg.rf.e36e49a54020160917a4c0d35c7f2bf1.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9536155462265015
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car201_jpg.rf.b4972b8ebe18e5f635a4d83a6245ec16.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9519052505493164
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car204_jpg.rf.fac353863fb88ad76a606f6e1d09f41b.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9530848860740662
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car205_jpg.rf.67648135965f816a2e2486df188d5347.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9483762383460999
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car209_jpg.rf.b3e64cd29c6974742d8bfe41e6304bda.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9533934593200684
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car211_jpg.rf.17dcae0bb3e4a846feea623d4995d51f.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.946972668170929
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car214_jpg.rf.a64e8bb45f87435e512f9062fc1fb890.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.963416576385498
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car216_jpg.rf.4623fafa946c679b9b706f608fde65f4.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9608199000358582
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car21_jpg.rf.784a155d336e8eabde9896f86a58b427.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9632613658905029
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car220_jpg.rf.ed4fe612fe19f8541fd812ff8046349d.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9569528102874756
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car221_jpg.rf.0ea57969de9f87f9c1034014d458afc8.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9411082863807678
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car226_jpg.rf.3e4794eaaaf946e5fa69328e7b0d4ed0.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9579768776893616
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car227_jpg.rf.10f0557ea96dc44c4b2c9c5409218762.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9420855641365051
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car231_jpg.rf.ae6195d0a2a4dea4fd486e716700a8bd.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9462491869926453
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car233_jpg.rf.6fdfc8a44e94369f7ee7a68bb58507aa.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9430083632469177
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car240_jpg.rf.0e886dfc5c84192c7d66c1520ff84b9f.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9451107382774353
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car253_jpg.rf.4edf9feba64f56ef9ed11bb271a686dd.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9468973278999329
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car256_jpg.rf.65c8c8aeb9bdb3b5357e7314a13b3c86.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9538621306419373
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car257_jpg.rf.f09c97e8fbb4a8e3afd4a110ecffbac3.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9564078450202942
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car260_jpg.rf.d47fd2258bff8b52b3650085564e1224.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9536501169204712
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car265_jpg.rf.a42e616ed8e6aca6ed609230e7e2e887.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9477499723434448
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car271_jpg.rf.14b8235cbfe463328d68da725a4f6b23.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9454454779624939
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car273_jpg.rf.9ebdedbea4a41cce040b4d9295a83346.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9569332599639893
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car289_jpg.rf.75264bbceefb41613772bb32dd5957ba.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9466391801834106
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car290_jpg.rf.258362cb22777463c37b0ec50da77fc3.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9213482737541199
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car291_jpg.rf.2650e8a83da8f35fbb88a2f897138a22.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9267171025276184
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car293_jpg.rf.27d638af1fdf377fd6ac797256107a4f.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9680952429771423
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car294_jpg.rf.2ac1b01c25ed68d87968bd3dbede3ff1.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9337136745452881
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car296_jpg.rf.485d3558e27b1e074af5040dffcea9bb.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9395254254341125
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car300_jpg.rf.edb6eea6b851d551fee785a83c5f132b.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9477928280830383
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car301_jpg.rf.1e504a96539ad0822c615c5fbd276c43.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9331562519073486
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car304_jpg.rf.8e659a55512b9d9176e7a2cee2b31a98.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9223025441169739
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car307_jpg.rf.2f8c89e9e6ad6f58f409b4fe181fdc3c.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9454370737075806
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car311_jpg.rf.f83bd99fd799de69128d9c1c11d03f4e.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9456735849380493
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car314_jpg.rf.116cf03c01f8c891378dbed8c9f55328.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9376620650291443
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car317_jpg.rf.01975d97849931675480ab4fd525371c.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9521922469139099
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car318_jpg.rf.cd2a897f185cf73bb609f7db1ffff67d.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9546259045600891
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car319_jpg.rf.54fd7c65be63345e12c3622e822f60b6.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9338189959526062
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car325_jpg.rf.79b180fb0cbd933fc13dd6460ec50422.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9595255255699158
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car326_jpg.rf.d61771f6bbbd2b949f3d6c650555439d.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9461263418197632
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car32_jpg.rf.36b2dfe405ef28ca1e7e153359fc2812.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9558900594711304
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car334_jpg.rf.1afb91793d4c053349b5d2830bcd43d2.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9538359045982361
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car339_jpg.rf.443fddaf69e9caa5035445c4488119ff.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9488915205001831
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car342_jpg.rf.6834573f35fe18354ac5fae713d76433.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9487759470939636
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car344_jpg.rf.39a0330cdf7399cbfe8cb7a360c1e280.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9274194240570068
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car345_jpg.rf.184865a755d48ba00e91c74e387685cb.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.953484296798706
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car347_jpg.rf.a00eafe89e30a4da6c77145f01953ed2.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9518095850944519
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car351_jpg.rf.64f2a04c492af698ae9d938cda0a91ef.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9395162463188171
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car354_jpg.rf.5262b59ae3ff2077ee52e964f8cb6034.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9592143893241882
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car364_jpg.rf.a689349f442e3e4f2967bbaee9f26344.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9435368776321411
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car366_jpg.rf.d247c47d222ffe5e9468a3244a36a000.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9400202035903931
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car367_jpg.rf.42fc47a7b1d7885345cc6e87969af356.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9238784909248352
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car370_jpg.rf.e65c63e155e4892577dd43b821c66a2f.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9426804780960083
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car373_jpg.rf.a9a2c242112c241caefa74f340658b21.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9124127626419067
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car375_jpg.rf.2cc7a29c6772081540b500159555e11a.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9297614097595215
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car382_jpg.rf.a6857975e44a192185b4f4c57bf74d16.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9347211122512817
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car383_jpg.rf.608feb265e05c3c43257b4d5c63cf423.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9381651878356934
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car385_jpg.rf.e54f2d78e42e16573008cf8559ec019c.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.934387743473053
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car386_jpg.rf.db7fa95943f431783c75f0b9338abbaf.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9569567441940308
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car388_jpg.rf.b32b03b69ca0bb66a07fc36c09119b4e.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9444876909255981
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car394_jpg.rf.12f7e3a754558bf6eb20f76a8ffd68a6.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9369507431983948
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car401_jpg.rf.f617ffb70b3e5bc1fff323399df51ba3.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9375524520874023
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car40_jpg.rf.ab5ec54fec311043f25bfb88d3b592d5.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9214158654212952
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car411_jpg.rf.50f741ce9c459971b1333f9007b86aad.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9594694972038269
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car415_jpg.rf.323306d1e396add6b5a658bf5372c6ad.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9534277319908142
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car41_jpg.rf.048da6a40eb8b288ccb1d66cd16f6c22.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.957756519317627
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car43_jpg.rf.4b08876f109c61b52f537449e77706fc.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9643160104751587
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car47_jpg.rf.940a500a38ccc8d846fbfe1965fc2874.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9461889266967773
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car48_jpg.rf.c87197cf90f318aef5f1b3a3f9884f01.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9477576613426208
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car49_jpg.rf.84a9a21db3441db2eb437441df9c21f6.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9587586522102356
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car4_jpg.rf.2bcb1f82534d5cbebb0da360bbdba28d.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9470488429069519
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car51_jpg.rf.06eac34460d81e29bc2d1c56cd21d9ca.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9569333791732788
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car52_jpg.rf.4c297811a6d5c8189537c0aaaf205cb6.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9526172280311584
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car55_jpg.rf.04225f3c961976737091e173d74c5923.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9581260085105896
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car5_jpg.rf.a3fcfac7dfd876de198da1517f32347e.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9624550342559814
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car60_jpg.rf.9610d0d9e4016a2bd7463221a2e8d67f.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9219368100166321
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car61_jpg.rf.c835eb1b04536cae113efee9c338cfb8.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9649561643600464
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car65_jpg.rf.ca1a9dedf8a65103a6739ff2c19a42d1.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9530118107795715
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car67_jpg.rf.e7a034b744d3793657ac12c996dba730.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9223583936691284
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car73_jpg.rf.829496d2f5d09bf3313d405f17898055.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9575949907302856
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car74_jpg.rf.b67a943e15b6ab2a5a796e26a7d78ce2.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9548826813697815
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car75_jpg.rf.5fc7f0b988b65843e6802539f559ca4f.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9595828652381897
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car79_jpg.rf.89fab37fcf42a81225f951b7673990c3.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9547505974769592
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car87_jpg.rf.a988af811fe42d6a61ba988c3a7d27f7.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9559797048568726
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car91_jpg.rf.6a8541ff583367581453f0f02df8bc61.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9566764831542969
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\car95_jpg.rf.9281e559e6c95635eae9b996061fb9c3.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9393579363822937
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_26580_jpg.rf.98a8a4808b6306855a8f820fa51ab329.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8638083338737488
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_26620_jpg.rf.ea58d2f9426c84b2712e9e1e780978f6.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8828949332237244
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_26800_jpg.rf.37ff739058a66e30999e6dbff624e61c.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8862080574035645
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_26820_jpg.rf.2b949db268cf4089f16df5e74a52744f.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8576480150222778
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_26840_jpg.rf.28e6cfc3f94a0db399f1b103dee805cd.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8211629390716553
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_26900_jpg.rf.1efd061f714cff73e6fc7e8bcb88f760.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8771750926971436
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_26920_jpg.rf.c54b9126585c4089c19067bd48293950.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8947228193283081
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_26940_jpg.rf.4b64896a6d6ae26491f5794fe68f2447.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8349510431289673
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_26960_jpg.rf.bfc0689ffde7dcb09bcbc9a855714952.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8144669532775879
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_27240_jpg.rf.aef6c24ce5316bd170d3f3c07f7ace37.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8601252436637878
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_27620_jpg.rf.c95dcd8c91e44c12cda58f4b16b5223a.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9179882407188416
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_27840_jpg.rf.60923a4b6f8f70bae724eeb6b7bb89cf.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.864100456237793
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_27860_jpg.rf.3a97dec19f38b96346923e602710e318.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8621078729629517
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_27880_jpg.rf.21345561e8d629e44653b659b39a1d06.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8348344564437866
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_28260_jpg.rf.dfa51bbd05a175d3b97403699bf0022a.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8874505758285522
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_29000_jpg.rf.e59203b26489fe40746bb33996d80140.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8795162439346313
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_29020_jpg.rf.0506208cdb02e087d0e0278939ad5f96.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8541096448898315
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_29400_jpg.rf.eed882ecac76d9913bd05525991fee3a.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8295727372169495
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_29440_jpg.rf.5bfe78f13274680824790868018ca2c0.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.9034982323646545
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_29460_jpg.rf.b0ff98c072eb60e95f7d0f83429e8540.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.840570330619812
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_29480_jpg.rf.ee26f35da2204540d1a28add1986e532.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8371081352233887
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_29560_jpg.rf.cc9c6d6e7601e474d02e6f696088b973.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8724074959754944
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_29820_jpg.rf.d5249711b9fed4e014f9b171adacb18b.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8515913486480713
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_29840_jpg.rf.d0c5935c2de7620ab6a5e331459063ce.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8750786185264587
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_31040_jpg.rf.b03316e6229a1f36e57974f07055295d.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8771679401397705
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_31060_jpg.rf.7e54407f39766c69c0cb57ecd87657b7.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8677558302879333
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_31120_jpg.rf.c5a25ef8afe2a610710299eb20501659.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8497163653373718
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_31140_jpg.rf.9f85d6d1e143e5b778985031710d9e9a.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8552173376083374
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_31160_jpg.rf.8b0412feeff09f8a9b475cf01a58b385.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8466240167617798
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_31560_jpg.rf.b2e2d3af5ac37bddc40296fa8120b2d5.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8620969653129578
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_31600_jpg.rf.69dd533a8331b846400c15cbc3ddacc8.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8553229570388794
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_31700_jpg.rf.b5e3f4d7479cbddaf31f3abbc24f7295.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.8429927229881287
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_400_jpg.rf.450bf5c9c092a885bf772ca5626d2d1f.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.6782332062721252
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_420_jpg.rf.1af70ef42bbb80fb528afdab28355f1a.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.7259053587913513
+    },
+    {
+      "image": "datasets\\vehicle_detection\\valid\\images\\vid_5_440_jpg.rf.15c9f6e4a87c31e971b03fa7c9907906.jpg",
+      "vehicle_type": "4-wheeler",
+      "confidence": 0.7716309428215027
+    }
+  ]
+}

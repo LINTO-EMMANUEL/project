@@ -1,0 +1,397 @@
+/* Remove global imports that might be conflicting */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"); */
+/* @import url("https://fonts.googleapis.com/icon?family=Material+Icons"); */
+
+/* Scope all styles to the manage-slots component to prevent global conflicts */
+.manage-slots-container {
+  width: 100%;
+  padding: 2rem;
+  /* Define component-specific variables to avoid global conflicts */
+  --ms-bg-medium: #1f2937;
+  --ms-bg-light: #374151;
+  --ms-text-primary: #f9fafb;
+  --ms-text-secondary: #9ca3af;
+}
+
+/* Header Section */
+.manage-slots-container .header-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.manage-slots-container .page-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--ms-text-primary, #f9fafb);
+  margin-bottom: 0.25rem;
+}
+
+.manage-slots-container .page-subtitle {
+  color: var(--ms-text-secondary, #9ca3af);
+  font-size: 0.875rem;
+}
+
+/* Button Styles - scoped to this component */
+.manage-slots-container .btn {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.manage-slots-container .btn-primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.manage-slots-container .btn-primary:hover {
+  background-color: #2563eb;
+}
+
+.manage-slots-container .btn-secondary {
+  background-color: #4b5563;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.manage-slots-container .btn-secondary:hover {
+  background-color: #6b7280;
+}
+
+.manage-slots-container .btn-danger {
+  background-color: #ef4444;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.manage-slots-container .btn-danger:hover {
+  background-color: #dc2626;
+}
+
+.manage-slots-container .add-button {
+  gap: 0.5rem;
+}
+
+/* Card and Table Styles */
+.manage-slots-container .card {
+  background-color: var(--ms-bg-medium, #1f2937);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.manage-slots-container .table-responsive {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.manage-slots-container .slots-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.manage-slots-container .table-header {
+  background-color: var(--ms-bg-light, #374151);
+  text-align: left;
+}
+
+.manage-slots-container .table-header th {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.manage-slots-container .table-header th:first-child {
+  border-top-left-radius: 0.5rem;
+}
+
+.manage-slots-container .table-header th:last-child {
+  border-top-right-radius: 0.5rem;
+}
+
+.manage-slots-container .table-row {
+  border-bottom: 1px solid var(--ms-bg-light, #374151);
+}
+
+.manage-slots-container .table-row td {
+  padding: 1rem;
+}
+
+.manage-slots-container .actions-cell {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Status colors - scoped to this component */
+.manage-slots-container .text-green-400 {
+  color: #4ade80;
+}
+
+.manage-slots-container .text-red-400 {
+  color: #f87171;
+}
+
+.manage-slots-container .text-yellow-400 {
+  color: #facc15;
+}
+
+.manage-slots-container .text-gray-400 {
+  color: #9ca3af;
+}
+
+/* Pagination Controls */
+.manage-slots-container .pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.manage-slots-container .pagination-info {
+  margin-right: 1rem;
+  font-size: 0.875rem;
+  color: var(--ms-text-secondary, #9ca3af);
+}
+
+.manage-slots-container .pagination-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.manage-slots-container .pagination-controls .btn-secondary {
+  padding: 0.25rem;
+}
+
+/* Material Icons adjustments - scoped to this component */
+.manage-slots-container .material-icons {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1100;
+  padding: 1rem;
+}
+
+.modal-card {
+  background-color: white;
+  border-radius: 0.75rem;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #f9fafb;
+}
+
+.modal-header h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s;
+}
+
+.close-button:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.slot-form {
+  padding: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  background-color: white;
+  color: #111827;
+  font-size: 0.875rem;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.form-group input:disabled {
+  background-color: #f3f4f6;
+  cursor: not-allowed;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.form-actions button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.form-actions .btn-secondary {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.form-actions .btn-secondary:hover {
+  background-color: #e5e7eb;
+}
+
+.form-actions .btn-primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.form-actions .btn-primary:hover {
+  background-color: #2563eb;
+}
+
+/* Search Bar Styles */
+.search-container {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start; /* Changed from center to flex-start to align left */
+}
+
+.search-and-add-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+/* Search input styling */
+.search-input-wrapper {
+  position: relative;
+  max-width: 400px; /* Reduced from 600px to 400px */
+  width: 100%;
+  margin-left: 0; /* Ensure no margin on the left */
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 40px;
+  border: 2px solid #000000; /* Black border by default */
+  border-radius: 20px; /* Rounded corners with 20% border-radius */
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #add8e6; /* Light blue border on focus */
+  box-shadow: 0 0 0 2px rgba(173, 216, 230, 0.2); /* Light blue glow */
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000000; /* Black icon by default */
+}
+
+.search-input:focus + .search-icon {
+  color: #add8e6; /* Light blue icon on focus */
+}
+
+.clear-search {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000000; /* Black icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.clear-search:hover {
+  color: #555555; /* Darker on hover */
+}
+
+/* Add button styling */
+.add-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 20px;
+  white-space: nowrap;
+}

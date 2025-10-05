@@ -1,0 +1,31 @@
+/* Enhanced Camera Entry Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e2f !important;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #1e1e2f;
+}
+
+:root {
+  --accent: #1a73e8;
+  --error: #dc3545;
+  --button-gray: #4a4a6a;
+  --muted-border: rgba(255, 255, 255, 0.1);
+}
+
+.enhanced-camera-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #1e1e2f;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
